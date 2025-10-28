@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIが導き出す 次世代の投資戦略 | LP</title>
+    <!-- Tailwind CSS CDNを読み込み -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* カスタムフォント設定 (日本語にも対応したサンセリフ体) */
+        body {
+            font-family: 'Inter', 'Hiragino Kaku Gothic ProN', 'Meiryo', sans-serif;
+        }
+        /* iframeのレスポンシブコンテナ */
+        .iframe-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 64.28%; /* 700px(width) / 450px(height) のアスペクト比 450/700 * 100% ≈ 64.28% */
+            height: 0;
+            overflow: hidden;
+            max-width: 700px; /* 元の幅に合わせて最大幅を設定 */
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .iframe-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+            border-radius: 0.75rem; /* rounded-xl */
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); /* shadow-xl */
+        }
+    </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'primary': '#007bff', /* 青系のキーカラー */
+                        'secondary': '#6c757d', /* グレー系のサブカラー */
+                        'accent': '#17a2b8', /* シアン系のアクセントカラー */
+                    },
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50 text-gray-800 antialiased min-h-screen flex flex-col">
+
+    <!-- ヘッダー (シンプル) -->
+    <header class="py-4 bg-white shadow-md">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <!-- 左上のタイトルを更新 -->
+            <h1 class="text-xl font-bold text-accent">株式会社Gen AI Presents : AI投資アドバイザー</h1>
+        </div>
+    </header>
+
+    <!-- メインコンテンツ -->
+    <main class="flex-grow container mx-auto px-4 py-12 sm:py-20 flex flex-col items-center">
+        
+        <!-- ヒーローセクション/タイトル -->
+        <section class="text-center mb-10">
+            <!-- トップページの文章を更新 -->
+            <h2 class="text-4xl sm:text-5xl font-extrabold text-gray-900 leading-tight mb-4">
+                面倒な情報収集、<br>感情に基づいた非効率なトレードに<span class="text-primary"><br>さよならを。</span>
+            </h2>
+            <!-- その下の文字を更新 -->
+            <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+                常識を覆すデータ分析と予測力、最先端AIによる革新的な投資アプローチ法
+            </p>
+        </section>
+
+        <!-- メインの埋め込みコンテンツ -->
+        <section class="w-full max-w-4xl mb-12">
+            <div class="iframe-container">
+                <!-- ユーザー指定のiframeを配置 -->
+                <iframe 
+                    src="https://gamma.app/embed/jh71mw9d3q4p050" 
+                    allow="fullscreen" 
+                    title="AIが導き出す 次世代の投資戦略">
+                </iframe>
+            </div>
+            <!-- iframeの説明 -->
+            <p class="mt-4 text-center text-sm text-gray-500">
+               
+            </p>
+        </section>
+
+
+
+    </main>
+
+    <!-- フッター -->
+    <footer class="bg-gray-800 text-white py-6 mt-auto">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-sm">
+            <p>&copy; 2025 Gen AI Co., Ltd. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
