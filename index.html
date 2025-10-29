@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AIが導き出す 次世代の投資戦略 | LP</title>
-    <!-- Tailwind CSS CDNを読み込み -->
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         /* カスタムフォント設定 (日本語にも対応したサンセリフ体) */
@@ -49,53 +48,61 @@
 </head>
 <body class="bg-gray-50 text-gray-800 antialiased min-h-screen flex flex-col">
 
-    <!-- ヘッダー (シンプル) -->
     <header class="py-4 bg-white shadow-md">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <!-- 左上のタイトルを更新 -->
             <h1 class="text-xl font-bold text-accent">株式会社Gen AI Presents : AI投資アドバイザー</h1>
         </div>
     </header>
 
-    <!-- メインコンテンツ -->
     <main class="flex-grow container mx-auto px-4 py-12 sm:py-20 flex flex-col items-center">
         
-        <!-- ヒーローセクション/タイトル -->
         <section class="text-center mb-10">
-            <!-- トップページの文章を更新 -->
             <h2 class="text-4xl sm:text-5xl font-extrabold text-gray-900 leading-tight mb-4">
                 面倒な情報収集、<br>感情に基づいた非効率なトレードに<span class="text-primary"><br>さよならを。</span>
             </h2>
-            <!-- その下の文字を更新 -->
             <p class="text-lg text-gray-600 max-w-2xl mx-auto">
                 常識を覆すデータ分析と予測力、最先端AIによる革新的な投資アプローチ法
             </p>
         </section>
 
-        <!-- メインの埋め込みコンテンツ -->
         <section class="w-full max-w-4xl mb-12">
             <div class="iframe-container">
-                <!-- ユーザー指定のiframeを配置 -->
                 <iframe 
                     src="https://gamma.app/embed/jh71mw9d3q4p050" 
                     allow="fullscreen" 
                     title="AIが導き出す 次世代の投資戦略">
                 </iframe>
             </div>
-            <!-- iframeの説明 -->
             <p class="mt-4 text-center text-sm text-gray-500">
-               
+                
             </p>
         </section>
 
 
-
     </main>
 
-    <!-- フッター -->
     <footer class="bg-gray-800 text-white py-6 mt-auto">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-sm">
-            <p>&copy; 2025 Gen AI Co., Ltd. All Rights Reserved.</p>
+            <div class="mb-4 pt-4 border-t border-gray-600">
+                <p class="font-bold text-gray-300 mb-2">【重要事項と免責事項】</p>
+                <p class="text-xs text-gray-400 max-w-3xl mx-auto space-y-1">
+                    投資の自己責任: 当サービスで提供される情報は、投資判断の参考情報であり、投資勧誘を目的としたものではありません。最終的な投資判断は、利用者ご自身の責任において行ってください。
+                </p>
+                <p class="text-xs text-gray-400 max-w-3xl mx-auto space-y-1 mt-1">
+                    運用成績の保証否定: 当サービスは、将来の運用成果を保証するものではありません。当サービスの利用に基づくいかなる損害に対しても、一切の責任を負いません。提供される情報には細心の注意を払っていますが、その正確性、完全性、信頼性について保証するものではありません。
+                </p>
+            </div>
+            
+            <p class="mb-2">
+                <a href="#privacy-policy" class="text-gray-400 hover:text-white underline mr-4">プライバシーポリシー</a>
+                <a href="#tokushoho" class="text-gray-400 hover:text-white underline">特定商取引法に基づく表記</a>
+            </p>
+            
+            <div id="privacy-policy" class="text-left bg-gray-700 p-4 mt-4 rounded-md">
+                <h4 class="text-sm font-bold mb-2 text-white"
+            </div>
+            
+            <p class="mt-4">&copy; 2025 Gen AI Co., Ltd. All Rights Reserved.</p>
         </div>
     </footer>
 
